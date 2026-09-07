@@ -1,0 +1,582 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.core.sdk",
+    "module": "coreads",
+    "version": "1.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "ProductionReleaseVariantProductionReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-perf"
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-measurement-api"
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.37.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-collections-immutable",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "com.facebook.shimmer",
+          "module": "shimmer",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.google.ads.mediation",
+          "module": "facebook",
+          "version": {
+            "requires": "6.21.0.4"
+          }
+        },
+        {
+          "group": "com.facebook.android",
+          "module": "facebook-android-sdk",
+          "version": {
+            "requires": "18.3.0"
+          }
+        },
+        {
+          "group": "com.appsflyer",
+          "module": "af-android-sdk",
+          "version": {
+            "requires": "6.18.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coreads-1.0.8.aar",
+          "url": "coreads-1.0.8.aar",
+          "size": 1702941,
+          "sha512": "1560d5e12ee492956961c651e81917d1686773d4fcd77267e1c6146bc2d93f8195b9704b08c95d1f3c1a5a0360fcda00b38eeddd3edf7fff76c15ee50557a16e",
+          "sha256": "db2fda78b9708bfd9284b8edda9769846c1b32b170c8ab3864733f991da4b926",
+          "sha1": "5e6d036704499007892514f4ca31ec8c9edf6fdc",
+          "md5": "a2d76613c0b3b01832729316f9361fe8"
+        }
+      ]
+    },
+    {
+      "name": "ProductionReleaseVariantProductionReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.profileinstaller",
+          "module": "profileinstaller",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.11.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "com.valentinilk.shimmer",
+          "module": "compose-shimmer",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-viewbinding",
+          "version": {
+            "requires": "1.9.5"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "25.4.0"
+          }
+        },
+        {
+          "group": "com.google.android.ump",
+          "module": "user-messaging-platform",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "com.miui.referrer",
+          "module": "homereferrer",
+          "version": {
+            "requires": "1.0.0.6"
+          }
+        },
+        {
+          "group": "com.huawei.hms",
+          "module": "componentverifysdk",
+          "version": {
+            "requires": "13.3.1.301"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-perf"
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-measurement-api"
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.37.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-collections-immutable",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "com.facebook.shimmer",
+          "module": "shimmer",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.google.ads.mediation",
+          "module": "facebook",
+          "version": {
+            "requires": "6.21.0.4"
+          }
+        },
+        {
+          "group": "com.facebook.android",
+          "module": "facebook-android-sdk",
+          "version": {
+            "requires": "18.3.0"
+          }
+        },
+        {
+          "group": "com.appsflyer",
+          "module": "af-android-sdk",
+          "version": {
+            "requires": "6.18.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coreads-1.0.8.aar",
+          "url": "coreads-1.0.8.aar",
+          "size": 1702941,
+          "sha512": "1560d5e12ee492956961c651e81917d1686773d4fcd77267e1c6146bc2d93f8195b9704b08c95d1f3c1a5a0360fcda00b38eeddd3edf7fff76c15ee50557a16e",
+          "sha256": "db2fda78b9708bfd9284b8edda9769846c1b32b170c8ab3864733f991da4b926",
+          "sha1": "5e6d036704499007892514f4ca31ec8c9edf6fdc",
+          "md5": "a2d76613c0b3b01832729316f9361fe8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "coreads-1.0.8-sources.jar",
+          "url": "coreads-1.0.8-sources.jar",
+          "size": 347,
+          "sha512": "2a05d4df069c550164a233473e88f71eca8d19c10060bfd2d72c98db763e0d6c307465ab9c947d54d66a64f2dd99aa1041af577a6f9e74fd099991c96c9a1a07",
+          "sha256": "9c85f8328cf7506a33911ced17422337c55c3e6a1b74ded241aa0f869fab3804",
+          "sha1": "91d79f43823b4fcc40439ed0beb83b811753d7ec",
+          "md5": "04a6eedb27070861f7d64029530bc61a"
+        }
+      ]
+    }
+  ]
+}
