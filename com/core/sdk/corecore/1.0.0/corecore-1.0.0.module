@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.core.sdk",
+    "module": "corecore",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "corecore-1.0.0.aar",
+          "url": "corecore-1.0.0.aar",
+          "size": 22615,
+          "sha512": "0f92999a38345d152198c797b6622c258fb81705f38aec764f2bc63a4479c2e931d270cad6c5231ccb31fcc1e68c445e0b03d359510f644b3a53c2d9dee4dff7",
+          "sha256": "4ab199e87433478c2d7758a445ddfa3383f8094580a29b914c22d65647ae4dfc",
+          "sha1": "76b5c10a77018a19d4f64eb013cb277daf65456a",
+          "md5": "14f32117abb4d0b0cfcfdca1154df38d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "corecore-1.0.0.aar",
+          "url": "corecore-1.0.0.aar",
+          "size": 22615,
+          "sha512": "0f92999a38345d152198c797b6622c258fb81705f38aec764f2bc63a4479c2e931d270cad6c5231ccb31fcc1e68c445e0b03d359510f644b3a53c2d9dee4dff7",
+          "sha256": "4ab199e87433478c2d7758a445ddfa3383f8094580a29b914c22d65647ae4dfc",
+          "sha1": "76b5c10a77018a19d4f64eb013cb277daf65456a",
+          "md5": "14f32117abb4d0b0cfcfdca1154df38d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "corecore-1.0.0-sources.jar",
+          "url": "corecore-1.0.0-sources.jar",
+          "size": 6219,
+          "sha512": "2f6e331d3c7ab7f8093b20e6a623a376129e10127dbac8c3be43e2ad84aebd0b2103c6bac6d75de1730afa99ad45e4026a92b45d2f7b7fb6f8cf33e7d1bd92df",
+          "sha256": "1c073c2cefd150ccf360343c2fcb08a61225ac1ca322ccbe1aded892f2f86ccf",
+          "sha1": "ecad3b1704126608ed8215edfc975b49058b8ff8",
+          "md5": "7040a77817cd21732b1033c386a401c5"
+        }
+      ]
+    }
+  ]
+}
