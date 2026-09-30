@@ -162,10 +162,10 @@
           "name": "corecore-1.0.0-sources.jar",
           "url": "corecore-1.0.0-sources.jar",
           "size": 6219,
-          "sha512": "2f6e331d3c7ab7f8093b20e6a623a376129e10127dbac8c3be43e2ad84aebd0b2103c6bac6d75de1730afa99ad45e4026a92b45d2f7b7fb6f8cf33e7d1bd92df",
-          "sha256": "1c073c2cefd150ccf360343c2fcb08a61225ac1ca322ccbe1aded892f2f86ccf",
-          "sha1": "ecad3b1704126608ed8215edfc975b49058b8ff8",
-          "md5": "7040a77817cd21732b1033c386a401c5"
+          "sha512": "c8146e5ccbe0b3652e75f77d593671f91666fa1c6ccebfdf57e4c284fb05a7e740b8620923be37337adc69faf12dc604f943ceb77513156af4774137840e2e8e",
+          "sha256": "b8d29313469c47caa68462a998987b348cf101484b97c38427e15bd8e0d3b6be",
+          "sha1": "a983fc3063b35deca315c70f8ec2db4c30a46107",
+          "md5": "b54983d2fb8daee26370d346c51c63a3"
         }
       ]
     }
