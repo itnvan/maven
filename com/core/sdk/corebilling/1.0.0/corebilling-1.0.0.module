@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.core.sdk",
+    "module": "corebilling",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.core.sdk",
+          "module": "corecore",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.android.billingclient",
+          "module": "billing",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "corebilling-1.0.0.aar",
+          "url": "corebilling-1.0.0.aar",
+          "size": 97960,
+          "sha512": "dc86da72609a58e2e18337653fb2d707482d295b184549c5115cb0777ada9365ec25e9447ca05b4a1f73af0d2fb8d9dd99b56def83136f7f26dcb1b882fce825",
+          "sha256": "0853dfda987553a4a1c2ff01aba758b5f34be35a84755410c6c03a1d1db98ae0",
+          "sha1": "62dd156283c368b9189d6e4e811fc86cd2972a12",
+          "md5": "b4feccdb48923fd7464d832315d0bde9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.11.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.core.sdk",
+          "module": "corecore",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.android.billingclient",
+          "module": "billing",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "corebilling-1.0.0.aar",
+          "url": "corebilling-1.0.0.aar",
+          "size": 97960,
+          "sha512": "dc86da72609a58e2e18337653fb2d707482d295b184549c5115cb0777ada9365ec25e9447ca05b4a1f73af0d2fb8d9dd99b56def83136f7f26dcb1b882fce825",
+          "sha256": "0853dfda987553a4a1c2ff01aba758b5f34be35a84755410c6c03a1d1db98ae0",
+          "sha1": "62dd156283c368b9189d6e4e811fc86cd2972a12",
+          "md5": "b4feccdb48923fd7464d832315d0bde9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "corebilling-1.0.0-sources.jar",
+          "url": "corebilling-1.0.0-sources.jar",
+          "size": 9575,
+          "sha512": "5fb80add51e2fb9d174b7756fdce64e5bed287a4741f7575cce9bb23f2d27d27d1933a145175a5426cd53a92a7ec8f77cfff76a157bcff620f0fd93a80102823",
+          "sha256": "51652ea99f1e2e865ff118563c8781ee63de515dcedf813c04fef160e771766c",
+          "sha1": "6254b219ad134794aa3ef5c0338647a8482badd0",
+          "md5": "f411ec45273e95ea88de61ee7151f981"
+        }
+      ]
+    }
+  ]
+}
